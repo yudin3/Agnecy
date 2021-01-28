@@ -1,1 +1,145 @@
+html{
+	font-size: 62.5%;
+}
 
+body{
+	margin: 0;
+	color: #000000;
+	font-family: OpenSans-Regular;
+	font-size: 1.6rem;
+}
+
+.main-container{
+	box-sizing: border-box;
+	position: relative;
+	
+	max-width: 1300px;
+	
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.header__menu{
+	background-color: #313030;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*a:focus,a:visited{
+	color: inherit;
+}*/
+
+p{
+	margin: 0;
+	line-height: 1.4;
+}
+
+@font-face{
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+img{
+	max-width: 100%;
+}
+
+.title{
+	margin: 0;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family: "OpenSans-Bold";
+}
+
+.title_xl{
+	font-size: 6rem;
+}
+
+.header__title{
+	margin-bottom: 4rem;
+}
+
+.flex-container{
+	display: flex;
+	
+}
+
+.header__menu{
+	justify-content: center;
+}
+
+.header__menu-item{
+	padding: 2.2rem 1.8em;
+	color: #f6f2f2;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-family: "OpenSans-Bold";
+}
+
+.header__menu-item:hover{
+	background-color: #ff3f40;
+}
+
+.button{
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border: none;
+
+	text-transform: uppercase;
+
+	border-radius: .5rem;
+	outline: none;
+	cursor: pointer;
+
+	background-color: #ff3f40;
+	color: #f6f2f2;
+	font-family: "OpenSans-Bold";
+	font-size: 1.8rem;
+	
+	transition: background-color .4s ease-out, color .4s;
+}
+
+.header__button{
+	padding: 1.8rem 5.5rem;
+}
+
+.header__column{
+	width: 50%;
+	margin-right: 10%;
+}
+
+.header__column:last-child{
+	margin-right: 0;
+}
+
+.header__column-left{
+	width: 40%;
+}
+
+.header__column-right{
+	text-align: right;
+}
+
+.header{
+	padding-top: 2.5rem;
+	background-color: #f6f2f2;
+}
+
+.header__container{
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.header__content{
+	margin-bottom: 6rem;
+}
